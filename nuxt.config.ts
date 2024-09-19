@@ -12,8 +12,8 @@ export default defineNuxtConfig({
     "@nuxt/scripts",
   ],
   build: {
-    transpile: ["shiki"]
-  }
+    transpile: ["shiki"],
+  },
   // https://google-fonts.nuxtjs.org/
   googleFonts: {
     families: {
