@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     "@nuxthq/studio",
     "@nuxtjs/color-mode",
     "@nuxt/scripts",
+    "@nuxt/image",
   ],
   // https://google-fonts.nuxtjs.org/
   googleFonts: {
