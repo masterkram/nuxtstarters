@@ -1,6 +1,6 @@
 export default defineAppConfig({
   general: {
-    title: "Minted Directory",
+    title: "Nuxt Starters",
     logo: "/logo.png",
   },
   directory: {
