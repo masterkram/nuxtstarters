@@ -11,6 +11,9 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     "@nuxt/scripts",
   ],
+  build: {
+    transpile: ["shiki"]
+  }
   // https://google-fonts.nuxtjs.org/
   googleFonts: {
     families: {
