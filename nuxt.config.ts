@@ -8,12 +8,8 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@nuxthq/studio",
     "@nuxtjs/color-mode",
-    "@nuxtjs/seo",
     "@nuxt/scripts",
   ],
-  build: {
-    transpile: ["shiki"],
-  },
   // https://google-fonts.nuxtjs.org/
   googleFonts: {
     families: {
@@ -41,8 +37,5 @@ export default defineNuxtConfig({
     url: "https://nuxtdirectory.netlify.app/",
     description: "Nuxt starter kits.",
     defaultLocale: "en",
-  },
-  ogImage: {
-    runtimeChromium: false,
   },
 });
