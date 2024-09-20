@@ -39,4 +39,10 @@ export default defineNuxtConfig({
     description: "Nuxt starter kits.",
     defaultLocale: "en",
   },
+  runtimeConfig: {
+    public: {
+      posthogPublicKey: process.env.POSTHOG_PUBLIC_KEY,
+      posthogHost: process.env.POSTHOG_HOST,
+    },
+  },
 });
