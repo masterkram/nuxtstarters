@@ -1,9 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  build: {
-    transpile: ["shiki"],
-  },
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxt/content",
@@ -33,13 +30,7 @@ export default defineNuxtConfig({
     documentDriven: {
       injectPage: false,
     },
-    highlight: {
-      theme: {
-        dark: "github-dark",
-        default: "github-light",
-      },
-      langs: ["js", "ts", "html", "py", "sh"],
-    },
+    highlight: false,
   },
 
   site: {
