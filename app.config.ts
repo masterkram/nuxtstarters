@@ -1,6 +1,6 @@
 export default defineAppConfig({
   general: {
-    title: "Minted Directory",
+    title: "Nuxt Starters",
     logo: "/logo.png",
   },
   site: {
@@ -74,7 +74,7 @@ export default defineAppConfig({
     },
   },
   footer: {
-    description: "Best directory for my niche.",
+    description: "Best nuxt starter kits.",
     socials: {
       github: {
         link: "",
