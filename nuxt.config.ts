@@ -9,9 +9,10 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@nuxthq/studio",
     "@nuxtjs/color-mode",
-    "@nuxtjs/seo",
     "@nuxt/scripts",
     "@nuxt/image",
+    "@nuxtjs/sitemap",
+    "nuxt-og-image",
   ],
 
   // https://google-fonts.nuxtjs.org/
