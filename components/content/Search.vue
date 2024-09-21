@@ -17,17 +17,6 @@ async function getSearchPlaceholder() {
   return searchConfig.placeholder;
 }
 
-
-// watch(
-//   [search, selectedTags],
-//   () => {
-//     router.push({
-//       query: { search: search.value.trim(), tags: selectedTags.value },
-//     });
-//   },
-//   { deep: true }
-// );
-
 const searchInput = useKeyFocus();
 </script>
 
@@ -47,7 +36,7 @@ const searchInput = useKeyFocus();
         </div>
       </div>
     </div>
-    <TagSelect v-if="searchConfig.tags.display === 'select'" />
-    <TagGrid v-else-if="searchConfig.tags.display === 'show-all'" />
+    <UiTagSelect v-if="searchConfig.tags.display === 'select'" />
+    <UiTagGrid v-else-if="searchConfig.tags.display === 'show-all'" />
   </div>
 </template>

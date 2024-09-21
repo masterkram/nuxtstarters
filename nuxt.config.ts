@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxt/content",
@@ -8,18 +9,22 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@nuxthq/studio",
     "@nuxtjs/color-mode",
+    "@nuxtjs/seo",
     "@nuxt/scripts",
     "@nuxt/image",
   ],
+
   // https://google-fonts.nuxtjs.org/
   googleFonts: {
     families: {
       "DM Sans": "200..900",
     },
   },
+
   colorMode: {
     classSuffix: "",
   },
+
   // https://content.nuxt.com/
   content: {
     documentDriven: {
@@ -33,16 +38,19 @@ export default defineNuxtConfig({
       langs: ["js", "ts", "html", "py", "sh"],
     },
   },
+
   site: {
     name: "Nuxt Starters",
-    url: "https://nuxtdirectory.netlify.app/",
+    url: "https://nuxtstarters.com/",
     description: "Nuxt starter kits.",
     defaultLocale: "en",
   },
-  runtimeConfig: {
-    public: {
-      posthogPublicKey: process.env.POSTHOG_PUBLIC_KEY,
-      posthogHost: process.env.POSTHOG_HOST,
+
+  ogImage: {
+    defaults: {
+      component: "OgImage",
     },
   },
+
+  compatibilityDate: "2024-09-20",
 });
