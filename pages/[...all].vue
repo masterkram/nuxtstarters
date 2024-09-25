@@ -8,7 +8,9 @@ callWithNuxt(app, useSeoMeta, [{ title: page.value.title, description: page.valu
 
 if (page.value) {
   defineOgImage({
-    component: page.value.ogImageStyle || 'Custom',
+    component: 'Custom',
+    title: page.value.title || "Nuxt Starters",
+    description: page.value.description || "A curated list of nuxt starter projects.",
     cover: page.value.cover,
     link: page.value.link,
     ...(page.value.ogImage || {}),
