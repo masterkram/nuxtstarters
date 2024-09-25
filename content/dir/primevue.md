@@ -1,11 +1,15 @@
 ---
-github: https://github.com/sfxcode/nuxt3-primevue-starter
 card_image: italy.jpg
 tags:
  - free
+description: Starter template with a set of useful pre-installed packages.
 ---
 
 # Prime Vue
+
+::links
++ [github](https://github.com/sfxcode/nuxt3-primevue-starter)
+::
 
 Starter template with a set of useful pre-installed packages.
 

@@ -3,13 +3,17 @@ tags:
   - agency
   - toolbox
   - free
-demo: https://agency-os.vercel.app/
-github: https://github.com/directus-labs/agency-os
 card_image: /agency-os.png
+description: Combination of key hackable tools to run any type of digital agency.
 ---
 
-
 # Agency OS
+
+::links
++ [demo](https://agency-os.vercel.app/)
++ [github](https://github.com/directus-labs/agency-os)
+::
+
 
 Combination of key hackable tools to run any type of digital agency.
 

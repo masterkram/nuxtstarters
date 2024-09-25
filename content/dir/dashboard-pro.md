@@ -3,9 +3,15 @@ tags:
   - dashboard
   - paid
 card_image: menu.jpg
+description: Visual template for a dashboard page.
 ---
 
 # Nuxt UI Pro Dashboard
+
+::links
++ [demo](https://dashboard-template.nuxt.dev/)
++ [github](https://github.com/nuxt-ui-pro/dashboard)
+::
 
 Visual template for a dashboard page.
 

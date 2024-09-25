@@ -3,9 +3,14 @@ tags:
   - SAAS
   - free
 card_image: laranuxt.png
+description: A powerful boilerplate that combines Laravel and Nuxt.
 ---
 
 # Laravel Nuxt
+
+::links
++ [github](https://github.com/k2so-dev/laravel-nuxt)
+::
 
 A powerful boilerplate that combines Laravel and Nuxt.
 

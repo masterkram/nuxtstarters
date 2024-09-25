@@ -3,9 +3,15 @@ tags:
   - basics
   - free
 card_image: banner-nuxt-awesome.png
+description: Nuxt boilerplate with basic features like navigation, theme switcher and transitions.
 ---
 
 # Nuxt Awesome Starter
+
+::links
++ [demo](https://nuxt3-awesome-starter.vercel.app/)
++ [github](https://github.com/viandwi24/nuxt3-awesome-starter)
+::
 
 Nuxt boilerplate with basic features like navigation, theme switcher and transitions.
 
