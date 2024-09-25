@@ -1,6 +1,7 @@
 ---
 tags:
   - dashboard
+  - paid
 card_image: menu.jpg
 ---
 

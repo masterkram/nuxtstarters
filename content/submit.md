@@ -1,8 +1,8 @@
-# Grow your business by submitting it to directory x.
+# Grow your template's users by submitting it to Nuxt Starters
 
-Submit your startup to the Minted directory to showcase your business to a growing community of founders, developers, and entrepreneurs.
-+ directory x gets **+100** visitors each month.
-+ directory x gets **10** unique visitors each month.
+Submit your template to the Minted directory to showcase it to a growing community of founders, developers, and Nuxt fans.
+<!-- + directory x gets **+100** visitors each month.
++ directory x gets **10** unique visitors each month. -->
 
 ---
 

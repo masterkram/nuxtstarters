@@ -1,6 +1,7 @@
 ---
 tags:
-  - markdown-based
+  - markdown
+  - free
 sponsored: 1
 card_image: cafe.jpg
 ---

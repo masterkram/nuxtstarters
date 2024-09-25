@@ -1,6 +1,7 @@
 ---
 tags:
   - SAAS
+  - free
 card_image: laranuxt.png
 ---
 

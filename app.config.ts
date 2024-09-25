@@ -1,16 +1,20 @@
 export default defineAppConfig({
   general: {
     title: "Nuxt Starters",
-    logo: "/logo.png",
+    logo: {
+      mainLogo: "",
+      darkModeLogo: "/dark-logo.png",
+      lightModeLogo: "/light-logo.png",
+    },
   },
   site: {
     name: "Nuxt Starters",
-    description: "Find the best nuxt starter kits.",
+    description: "Curated collection of Nuxt starting projects.",
     url: "https://nuxtstarters.com",
   },
   directory: {
     search: {
-      placeholder: "Search among {0} tools",
+      placeholder: "Search among {0} templates",
       showCount: true,
       icon: "tabler:bow",
       tags: {
@@ -53,8 +57,10 @@ export default defineAppConfig({
       { name: "landing-page" },
       { name: "toolbox" },
       { name: "agency" },
-      { name: "markdown-based" },
+      { name: "markdown" },
       { name: "basics", color: "indigo" },
+      { name: "free", color: "green" },
+      { name: "paid" },
     ],
   },
   header: {
@@ -66,7 +72,7 @@ export default defineAppConfig({
     },
     navbar: {
       colorModeSelector: true,
-      links: ["Home", "Blog", "Advertise"],
+      links: [],
     },
     actionButton: {
       text: "Submit a starter",
@@ -74,7 +80,7 @@ export default defineAppConfig({
     },
   },
   footer: {
-    description: "Best nuxt starter kits.",
+    description: "Curated collection of Nuxt starting projects.",
     socials: {
       github: {
         link: "",
