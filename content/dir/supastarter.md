@@ -1,7 +1,7 @@
 ---
-price: 299
 tags:
   - SAAS
+  - paid
 card_image: urban.jpg
 ---
 

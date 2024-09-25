@@ -1,6 +1,7 @@
 ---
 tags:
   - basics
+  - free
 card_image: banner-nuxt-awesome.png
 ---
 

@@ -2,6 +2,7 @@
 tags:
   - agency
   - toolbox
+  - free
 demo: https://agency-os.vercel.app/
 github: https://github.com/directus-labs/agency-os
 card_image: /agency-os.png

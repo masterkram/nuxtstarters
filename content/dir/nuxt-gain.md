@@ -1,1 +1,6 @@
+---
+tags:
+ - free
+---
+
 # Nuxt Gain 📈

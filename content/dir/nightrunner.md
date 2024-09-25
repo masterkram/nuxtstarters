@@ -1,6 +1,7 @@
 ---
 tags:
   - basics
+  - free
 github: https://github.com/notKamui/Nightrunner
 card_image: night.jpg
 ---

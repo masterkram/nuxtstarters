@@ -20,7 +20,7 @@ export default defineAppConfig({
       tags: {
         // options: none,select,show-all,
         display: "select",
-        intersection: false,
+        intersection: true,
       },
     },
     grid: {

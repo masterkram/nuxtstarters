@@ -1,6 +1,8 @@
 ---
 github: https://github.com/sfxcode/nuxt3-primevue-starter
 card_image: italy.jpg
+tags:
+ - free
 ---
 
 # Prime Vue

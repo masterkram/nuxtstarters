@@ -1,5 +1,7 @@
 ---
 card_image: saas-nuxt-ui.png
+tags:
+ - paid
 ---
 
 # Nuxt UI SaaS
