@@ -33,4 +33,11 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: "2024-09-20",
+
+  runtimeConfig: {
+    public: {
+      posthogPublicKey: process.env.POSTHOG_PUBLIC_KEY,
+      posthogHost: process.env.POSTHOG_HOST,
+    },
+  },
 });
