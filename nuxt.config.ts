@@ -4,7 +4,6 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxt/content",
-    "@nuxtjs/google-fonts",
     "nuxt-icon",
     "@nuxthq/studio",
     "@nuxtjs/color-mode",
@@ -12,14 +11,8 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxtjs/sitemap",
     "nuxt-og-image",
+    "@nuxt/fonts",
   ],
-
-  // https://google-fonts.nuxtjs.org/
-  googleFonts: {
-    families: {
-      "DM Sans": "200..900",
-    },
-  },
 
   colorMode: {
     classSuffix: "",
