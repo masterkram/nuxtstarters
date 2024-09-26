@@ -1,4 +1,7 @@
 ---
+tags:
+  - landing-page
+  - free
 description: "Nuxt Landing Page Starter: Deploy Your Waitlist in Minutes"
 ---
 
@@ -33,4 +36,4 @@ Waitlist
 + DrizzleORM
 ::
 
-**With NuxtHubLanding you host your waitlist for free.**
+**With NuxtHubLanding you host your waitlist for free.** ✅
