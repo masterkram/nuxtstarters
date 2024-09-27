@@ -13,9 +13,21 @@ card_image: /cube.png
 + [website](https://supersaas.dev/)
 ::
 
+SuperSaaS is a Nuxt template with all the features you need to start a SaaS.
+
 ## Features:
 + Authentication
 + Database
 + Payments and Subscriptions
 + Emails
 + File Storage
+
+## Stack
+
+::List
++ Nuxt
++ Tailwind
++ DrizzleORM
++ Stripe/Lemonsqueezy
++ 
+::
