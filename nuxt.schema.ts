@@ -12,12 +12,23 @@ export default defineNuxtSchema({
           description: "Title of the application.",
           default: "New Directory",
         }),
-        logo: field({
-          type: "media",
-          title: "Logo",
-          description: "Logo of the application.",
-          default: "/logo.png",
-        }),
+        logo: {
+          mainLogo: field({
+            type: "string",
+            title: "Main Logo",
+            description: "Main logo for the application.",
+          }),
+          darkModeLogo: field({
+            type: "string",
+            title: "Dark Mode Logo",
+            description: "Dark mode logo for the application.",
+          }),
+          lightModeLogo: field({
+            type: "string",
+            title: "Light Mode Logo",
+            description: "Light mode logo for the application.",
+          }),
+        },
       },
     }),
     directory: group({
