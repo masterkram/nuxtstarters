@@ -2,9 +2,13 @@ import { ref, computed } from "vue";
 import { useState } from "#app";
 import { useAppConfig } from "#imports";
 
+interface Tag {
+  name: string;
+  color: string;
+}
 export function useTags() {
   const selectedTags = useState<string[]>("tags", () => []);
-  const tags = useAppConfig().directory.tags;
+  const tags = useAppConfig().directory?.tags as Tag[];
 
   const availableTags = computed(() => {
     return tags.filter((e) => !selectedTags.value.includes(e.name));

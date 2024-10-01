@@ -2,7 +2,7 @@ export default defineAppConfig({
   general: {
     title: "Nuxt Starters",
     logo: {
-      mainLogo: "",
+      mainLogo: "/dark-logo.png",
       darkModeLogo: "/dark-logo.png",
       lightModeLogo: "/light-logo.png",
     },

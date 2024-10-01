@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const bannerConfig = useAppConfig().header.banner;
+const bannerConfig = useAppConfig().header?.banner;
 
 const href = computed(() => {
   const link = bannerConfig?.link;
@@ -22,9 +22,9 @@ function removeBanner() {
     class="flex items-center gap-x-6 bg-primary-600 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
     <p class="text-sm leading-6 text-white">
       <a :href="href" target="_blank" class="inline-flex items-center gap-1">
-        <strong v-if="bannerConfig?.brandText" class="font-semibold hidden sm:block">{{ bannerConfig.brandText
-          }}</strong>
-        <AppHeaderDot class="hidden sm:block" v-if="bannerConfig?.brandText" />
+        <strong v-if="bannerConfig?.brandText" class="font-semibold hidden sm:block">
+        {{ bannerConfig.brandText }}
+        </strong>
         {{ bannerConfig?.text }}
         <Icon class="hidden sm:block w-5 h-5" name="tabler:arrow-right" />
       </a>

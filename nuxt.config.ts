@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxt/content",
-    "nuxt-icon",
+    "@nuxt/icon",
     "@nuxthq/studio",
     "@nuxtjs/color-mode",
     "@nuxt/scripts",
