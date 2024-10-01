@@ -25,9 +25,6 @@ export default defineNuxtConfig({
     },
     highlight: false,
   },
-  tailwindcss: {
-    exposeConfig: true,
-  },
 
   ogImage: {
     defaults: {
