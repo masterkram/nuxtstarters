@@ -1,4 +1,4 @@
-::ThemedCenter
+::themed-center
 # Advertise your apps
 
 #description

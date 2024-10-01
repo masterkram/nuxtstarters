@@ -10,8 +10,8 @@ description: Starter template for directory websites. The current website where 
 # Minted Directory 🍃
 
 ::links
-+ [demo](#this-is-the-demo)
-+ [website](https://minteddirectory.com)
+- [demo](#this-is-the-demo)
+- [website](https://minteddirectory.com)
 ::
 
 Starter template for directory websites. The current website where you are has been made with this template.
@@ -36,10 +36,8 @@ Example Page:
 
 ## Tech Stack
 
-::List
-+ Nuxt 3
-+ Tailwind CSS
-+ Nuxt Content
+::list
+- Nuxt 3
+- Tailwind CSS
+- Nuxt Content
 ::
-
-

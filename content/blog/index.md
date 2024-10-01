@@ -2,7 +2,7 @@
 layout: wide
 ---
 
-::SimpleCenter
+::simple-center
 # Welcome to the directory Blog 🤓
 
 #description

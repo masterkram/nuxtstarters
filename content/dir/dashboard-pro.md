@@ -9,8 +9,8 @@ description: Visual template for a dashboard page.
 # Nuxt UI Pro Dashboard
 
 ::links
-+ [demo](https://dashboard-template.nuxt.dev/)
-+ [github](https://github.com/nuxt-ui-pro/dashboard)
+- [demo](https://dashboard-template.nuxt.dev/)
+- [github](https://github.com/nuxt-ui-pro/dashboard)
 ::
 
 Visual template for a dashboard page.
@@ -18,19 +18,21 @@ Visual template for a dashboard page.
 ![nuxt ui dashboard pro](/nuxt-dashboard-pro.png)
 
 ## Benefits
+
 Prebuilt dashboard template using nuxt ui. Let's you focus on the coding of the functionality of the dashboard while taking over the design and components that are needed for the page.
 
 ## Features
-+ mix and match with SAAS template
-+ includes charts, date pickers, etc..
-+ Resizeable multi-column layout.
+
+- mix and match with SAAS template
+- includes charts, date pickers, etc..
+- Resizeable multi-column layout.
 
 ## Tech Stack
 
-| Use | Name |
-|:--- |:---- |
-| JS Framework | Nuxt 3 |
-| Styling | tailwindcss |
+| Use               | Name        |
+| :---------------- | :---------- |
+| JS Framework      | Nuxt 3      |
+| Styling           | tailwindcss |
 | Component Library | Nuxt UI Pro |
 
 ## Getting Started

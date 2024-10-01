@@ -7,20 +7,21 @@ description: A full-stack todo app with Auth, SSR and SQL, running on the edge w
 
 # Atidone ✅
 
-::Links
-+ [demo](todos.nuxt.dev)
-+ [github](https://github.com/atinux/atidone)
+::links
+- [demo](todos.nuxt.dev)
+- [github](https://github.com/atinux/atidone)
 ::
 
 A full-stack todo app with Auth, SSR and SQL, running on the edge with Nuxt.
 
 ## Features
-+ Authentication
-+ Full Stack Todo List
 
+- Authentication
+- Full Stack Todo List
 
 ## Stack
-+ Nuxt
-+ NuxtHub
-+ Drizzle
-+ SQLite
+
+- Nuxt
+- NuxtHub
+- Drizzle
+- SQLite

@@ -7,9 +7,9 @@ description: Full Stack template with authentication and profile.
 
 # Gavarnie ⛰️
 
-::Links
-+ [demo](https://gavarnie.barbapapazes.dev/)
-+ [github](https://github.com/barbapapazes/gavarnie)
+::links
+- [demo](https://gavarnie.barbapapazes.dev/)
+- [github](https://github.com/barbapapazes/gavarnie)
 ::
 
 ::callout
@@ -20,11 +20,13 @@ Info
 ::
 
 ## Features
-+ Authentication
-+ Profile management.
+
+- Authentication
+- Profile management.
 
 ## Stack
-+ Nuxt
-+ NuxtHub
-+ Nuxt UI Pro
-+ Tailwind
+
+- Nuxt
+- NuxtHub
+- Nuxt UI Pro
+- Tailwind
