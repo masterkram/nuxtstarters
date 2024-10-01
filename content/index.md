@@ -14,4 +14,8 @@ Welcome to Nuxt Starter Kits the best place to find your starting point for your
 Happy shipping, sincerely yours [@mark](https://x.com/mark_bruderer) :icon{name="tabler:sailboat-2"}
 ::
 
-\:search\:directory-grid
+::search
+::
+
+::directory-grid
+::
