@@ -13,7 +13,7 @@ const logoPath = computed(() => {
     return config.general.logo.darkModeLogo;
   }
 
-  return ""
+  return config.general.logo.lightModeLogo;
 });
 </script>
 
