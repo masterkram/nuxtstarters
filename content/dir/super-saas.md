@@ -10,7 +10,7 @@ card_image: /cube.png
 # SuperSaaS 💪
 
 ::links
-- [demo](https://demo.supersaas.dev/)
+- [demo](https://demo.supersaas.dev/?aff=ppAzW)
 - [website](https://supersaas.dev/?aff=ppAzW)
 ::
 

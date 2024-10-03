@@ -2,10 +2,16 @@
 tags:
   - SAAS
   - paid
-card_image: urban.jpg
+card_image: supa.png
+description: "Extensive SaaS boilerplate with many key features 🔑."
+sponsored: true
 ---
 
 # Supastarter
+
+::links
++ [supastarter](https://supastarter.dev?aff=ppAzW)
+::
 
 Extensive paid SaaS boilerplate with many key features.
 
