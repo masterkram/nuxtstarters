@@ -2,6 +2,7 @@
 tags:
   - paid
   - SAAS
+sponsored: true
 description: Fullstack Nuxt SaaS starter kit.
 card_image: /cube.png
 ---
