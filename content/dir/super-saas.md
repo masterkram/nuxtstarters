@@ -11,7 +11,7 @@ card_image: /cube.png
 
 ::links
 - [demo](https://demo.supersaas.dev/)
-- [website](https://supersaas.dev/)
+- [website](https://supersaas.dev/?aff=ppAzW)
 ::
 
 SuperSaaS is a Nuxt template with all the features you need to start a SaaS.
