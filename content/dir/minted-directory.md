@@ -3,7 +3,6 @@ tags:
   - markdown
   - free
 sponsored: 1
-card_image: cafe.jpg
 description: Starter template for directory websites. The current website where you are has been made with this template.
 ---
 
@@ -14,17 +13,21 @@ description: Starter template for directory websites. The current website where 
 - [website](https://minteddirectory.com)
 ::
 
-Starter template for directory websites. The current website where you are has been made with this template.
+Minted Directory is a starter template for directory websites.
+
+The current website where you are has been made with this template.
 
 ::callout
-A directory website is a site with a curated list of links of businesses, services, products, or other resources.
-
 #title
-What is a directory 🤔
+What is a directory website 🤔
+#default
+A directory website is a site with a curated list of links of businesses, services, products, or other resources.
 ::
 
-Example Page:
+## Showcase
 ![nuxt directory website starter](/directory_screenshot.png)
+
+![]
 
 ## Main Features
 

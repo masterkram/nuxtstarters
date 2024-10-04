@@ -4,7 +4,7 @@ tags:
   - SAAS
 sponsored: true
 description: Fullstack Nuxt SaaS starter kit.
-card_image: /cube.png
+card_image: /supersaas.png
 ---
 
 # SuperSaaS 💪
