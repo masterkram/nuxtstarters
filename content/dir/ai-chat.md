@@ -8,12 +8,12 @@ description: AI LLM Playground made with Nuxt
 
 # AI Chat
 
-This is a real app running on nuxt hub which let's you interact with over 30 different Large Language Models for free. However it's also a template which lets you quickly build an LLM based app using Nuxt if you need to support a chat interface.
-
 ::links
 - [demo](https://hub-chat.nuxt.dev)
 - [github](https://github.com/ra-jeev/hub-chat)
 ::
+
+This is a real app running on nuxt hub which let's you interact with over 30 different Large Language Models for free. However it's also a template which lets you quickly build an LLM based app using Nuxt if you need to support a chat interface.
 
 ![ai chat screenshot](/ai-chat.png)
 

@@ -10,10 +10,13 @@ sponsored: true
 # Supastarter
 
 ::links
-+ [supastarter](https://supastarter.dev?aff=ppAzW)
++ [supastarter website](https://supastarter.dev?aff=ppAzW)
++ [demo](https://supastarter.dev?aff=ppAzW)
 ::
 
-Extensive paid SaaS boilerplate with many key features.
+Supastarter is a fullstack template for nuxt. It is used to create SaaS projects quickly.
+
+![](supademo.png)
 
 ## Features
 

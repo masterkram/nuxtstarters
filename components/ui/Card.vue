@@ -13,7 +13,7 @@ const props = defineProps(['item']);
     <div v-else-if="cardConfig?.image"
       class="w-full h-48 flex justify-center items-center rounded-t font-bold text-2xl text-center relative border-b dark:border-gray-700 px-4 select-none">
       <div
-        class="absolute inset-0 -z-10 h-full w-full bg-gray-50 bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:40px_40px] dark:bg-gray-900 dark:bg-[linear-gradient(to_right,#3F3F46_1px,transparent_1px),linear-gradient(to_bottom,#3F3F46_1px,transparent_1px)]">
+        class="absolute inset-0 -z-10 h-full w-full bg-gray-50 bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:40px_40px] dark:bg-gray-900 dark:bg-[linear-gradient(to_right,#27272A_1px,transparent_1px),linear-gradient(to_bottom,#27272A_1px,transparent_1px)]">
       </div>
       {{ item.title }}
     </div>

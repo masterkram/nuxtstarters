@@ -23,14 +23,14 @@ function removeBanner() {
     <p class="text-sm leading-6 text-white">
       <a :href="href" target="_blank" class="inline-flex items-center gap-1">
         <strong v-if="bannerConfig?.brandText" class="font-semibold hidden sm:block">
-        {{ bannerConfig.brandText }}
+          {{ bannerConfig.brandText }}
         </strong>
         {{ bannerConfig?.text }}
         <Icon class="hidden sm:block w-5 h-5" name="tabler:arrow-right" />
       </a>
     </p>
-    <div class="hidden sm:flex flex-1 justify-end">
-      <button @click="removeBanner" type="button" class="-m-3 p-3 focus-visible:outline-offset-[-4px]">
+    <div class="hidden sm:flex items-center flex-1 justify-end">
+      <button @click="removeBanner" type="button">
         <span class="sr-only">Dismiss</span>
         <Icon name="tabler:x" class="h-5 w-5 text-white" aria-hidden="true" />
       </button>
