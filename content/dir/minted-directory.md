@@ -27,7 +27,7 @@ A directory website is a site with a curated list of links of businesses, servic
 ## Showcase
 ![nuxt directory website starter](/directory_screenshot.png)
 
-![]
+![](/indiehackerchats.png)
 
 ## Main Features
 
@@ -35,7 +35,7 @@ A directory website is a site with a curated list of links of businesses, servic
 - Technical SEO support. 💻
 - Ability to post sponsored content. 💰
 - Automated Social Media Preview for articles. 🚛
-- Includes 9+ components specific to directory websites that can be included in markdown.
+- Includes 9+ components specific to directory websites that can be included in markdown. 📢
 
 ## Tech Stack
 

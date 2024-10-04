@@ -13,8 +13,8 @@ function renderListElements() {
 </script>
 
 <template>
-  <ul class="flex m-0 p-0 gap-4">
-    <li v-for="el in renderListElements()" class="flex m-0 p-0 gap-1 items-center">
+  <ul class="flex m-0 p-0 gap-4 font-semibold not-prose">
+    <li v-for="el in renderListElements()" class="flex m-0 p-0 gap-1 items-center underline decoration-sky-400">
       <Icon name="tabler:link" class="text-primary-400" />
       <span>
         <component :is="() => unwrap(el, ['li'])" />
