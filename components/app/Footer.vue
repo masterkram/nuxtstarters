@@ -27,7 +27,9 @@ const navigation = [
           <AppLogo />
           <p class="text-sm leading-6 text-gray-600 dark:text-gray-300">{{ config.footer.description }}</p>
           <div class="flex space-x-6">
-            <a v-for="item in socials" :key="item?.link" :href="item?.link" class="text-gray-400 hover:text-gray-500">
+            <a v-for="(item, key) in socials" :key="item?.link" :href="item?.link"
+              class="text-gray-400 hover:text-gray-500">
+              <span class="sr-only">{{ key }}</span>
               <Icon :name="item?.icon" class="h-6 w-6" aria-hidden="true" />
             </a>
           </div>
@@ -53,7 +55,7 @@ const navigation = [
                 <li v-for="item in navigation[count + 1].links" :key="item.title">
                   <a :href="item.link"
                     class="text-sm leading-6 text-gray-600 dark:text-gray-300 hover:dark:text-gray-400 hover:text-gray-900">{{
-            item.title }}</a>
+                      item.title }}</a>
                 </li>
               </ul>
             </div>

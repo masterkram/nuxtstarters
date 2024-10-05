@@ -18,9 +18,9 @@ const props = defineProps(['item']);
       {{ item.title }}
     </div>
     <div class="p-6">
-      <h3 class="m-0 text-lg font-semibold dark:text-gray-50">
+      <h2 class="m-0 text-lg font-semibold dark:text-gray-50">
         {{ item.title }}
-      </h3>
+      </h2>
       <p class="line-clamp-4">
         {{ item.description }}
       </p>
