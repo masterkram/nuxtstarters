@@ -18,6 +18,7 @@
     "@nuxthq/studio": "^2.1.1",
     "@nuxtjs/color-mode": "^3.5.1",
     "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/seo": "2.0.0-rc.23",
     "@nuxtjs/sitemap": "^6.1.0",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@tailwindcss/forms": "^0.5.9",

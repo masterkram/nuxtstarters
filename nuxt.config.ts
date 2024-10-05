@@ -9,9 +9,8 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@nuxt/scripts",
     "@nuxt/image",
-    "@nuxtjs/sitemap",
-    "nuxt-og-image",
     "@nuxt/fonts",
+    "@nuxtjs/seo",
   ],
 
   colorMode: {
