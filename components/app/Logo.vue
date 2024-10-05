@@ -19,7 +19,8 @@ const logoPath = computed(() => {
 
 <template>
   <NuxtLink to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-    <NuxtImg sizes="32px" :src="logoPath" class="h-8" :alt="`${config.general.title} Logo`" />
+    <NuxtImg sizes="32px" :src="logoPath" class="h-8 w-8" width="32" height="32"
+      :alt="`${config.general.title} Logo`" />
     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">{{ config.general.title
       }}</span>
   </NuxtLink>
