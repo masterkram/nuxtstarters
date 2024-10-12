@@ -3,7 +3,7 @@ tags:
   - agency
   - toolbox
   - free
-card_image: /agency-os.png
+card_image: /listing/agency-os.png
 description: Combination of key hackable tools to run any type of digital agency.
 ---
 

@@ -7,11 +7,6 @@ export default defineAppConfig({
       lightModeLogo: "/light-logo.png",
     },
   },
-  site: {
-    name: "Nuxt Starters",
-    description: "Curated collection of Nuxt starting projects.",
-    url: "https://nuxtstarters.com",
-  },
   directory: {
     search: {
       placeholder: "Search among {0} templates",

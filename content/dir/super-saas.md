@@ -2,7 +2,7 @@
 tags:
   - paid
   - SAAS
-sponsored: true
+featured: true
 description: Fullstack Nuxt SaaS starter kit.
 card_image: /supersaas.png
 ---
@@ -31,5 +31,4 @@ SuperSaaS is a Nuxt template with all the features you need to start a SaaS.
 - Tailwind
 - DrizzleORM
 - Stripe/Lemonsqueezy
--
 ::

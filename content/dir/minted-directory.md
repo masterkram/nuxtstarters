@@ -2,8 +2,9 @@
 tags:
   - markdown
   - free
-sponsored: 1
+featured: 1
 description: Starter template for directory websites. The current website where you are has been made with this template.
+card_image: listing/minted.png
 ---
 
 # Minted Directory 🍃
@@ -13,9 +14,9 @@ description: Starter template for directory websites. The current website where 
 - [website](https://minteddirectory.com)
 ::
 
-Minted Directory is a starter template for directory websites.
+Minted Directory is a free starter template for directory websites.
 
-The current website where you are has been made with this template.
+**NuxtStarters.com**, has been made based off this template.
 
 ::callout
 #title
@@ -27,7 +28,7 @@ A directory website is a site with a curated list of links of businesses, servic
 ## Showcase
 ![nuxt directory website starter](/directory_screenshot.png)
 
-![](/indiehackerchats.png)
+![indiehacker chats directory website](/indiehackerchats.png)
 
 ## Main Features
 
@@ -44,3 +45,8 @@ A directory website is a site with a curated list of links of businesses, servic
 - Tailwind CSS
 - Nuxt Content
 ::
+
+## Use Cases
+
+
+## Getting Started Guide
