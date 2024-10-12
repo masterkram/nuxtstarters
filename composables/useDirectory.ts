@@ -49,7 +49,7 @@ export function useDirectory(): AsyncData<
         "card_image",
         "description",
         "title",
-        "_slug",
+        "_path",
         "tags",
       ]);
 
