@@ -21,6 +21,8 @@ export default defineNuxtConfig({
   // https://content.nuxt.com/
   content: {
     documentDriven: {
+      navigation: false,
+      surround: false,
       injectPage: false,
     },
     highlight: false,
