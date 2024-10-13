@@ -2,7 +2,7 @@
 tags:
   - markdown
   - free
-featured: 1
+featured: 3
 description: Starter template for directory websites. The current website where you are has been made with this template.
 card_image: listing/minted.png
 ---

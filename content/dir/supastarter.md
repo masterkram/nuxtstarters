@@ -4,7 +4,7 @@ tags:
   - paid
 card_image: supa.png
 description: "Extensive SaaS boilerplate with many key features 🔑."
-featured: true
+featured: 1
 ---
 
 # Supastarter
@@ -14,14 +14,46 @@ featured: true
 + [demo](https://supastarter.dev?aff=ppAzW)
 ::
 
-Supastarter is a fullstack template for nuxt. It is used to create SaaS projects quickly.
-The main features are pre built authentication, payments, internationalization, mailing, customizable styling an extensible `tRPC` based API and AI adapters.
+Supastarter is a fullstack template for nuxt developers who want to start a **software as a service** startup.
+
+The main features are:
++ pre-built authentication
++ pre-built payments library
++ internationalization 🇺🇸 :icon{name="tabler:arrow-right"} 🇪🇸
++ mailing ✉️
++ customizable styling
++ extensible `tRPC` based API
++ AI adapters
 
 ![supastarter demo landing page](supademo.png)
 
 ## Features
 
-- 🔐 Authentication
+All features of supastarter explained:
+
+### Authentication
+The authentication system in Supastarters covers everything needed for both basic and advanced SaaS applications. It includes support for password-based and passwordless authentication.
+
+::callout
+#title
+Passwordless authentication
+#default
+Passwordless authentication allows users to log in using a magic link, typically sent via email, bypassing the need for a password.
+::
+
+Supastarters also includes an essential feature for all apps: a built-in “forgot password” flow.
+
+For more advanced scenarios, the kit offers robust authentication and authorization features like roles and permissions. It comes with predefined configurations for managing public, authenticated, and admin users. Additionally, you can implement more granular access control using helper functions that define permissions for specific teams and team owners.
+
+User experience is also prioritized with an integrated onboarding flow, allowing users to create and manage teams effortlessly.
+
+OAuth integration is supported for popular providers such as Google, Facebook, and Twitter. Supastarters offers pre-built, customizable frontend components for these services. To further enhance the developer experience, it includes user impersonation capabilities, allowing you to debug customer issues directly from their perspective.
+
+### Payments
+
+### Super Admin
+
+### User Inper
 - 💸 Payments
 - 🏢 Multi Tenancy
 - 💻 Super Admin

@@ -9,7 +9,7 @@ const props = defineProps(['item']);
     :class="cardConfig.border === 'shadow' ? 'shadow-sm' : cardConfig.border === 'dashed' ? 'border-dashed' : ''">
     <DirectoryFeaturedTag class="ml-6" v-if="item.featured" />
     <NuxtImg v-if="item.card_image && cardConfig?.image" sizes="400px" :alt="`${item.title} banner`"
-      class="w-full h-48 rounded-t object-cover" :src="item.card_image ?? '/logo.png'" />
+      class="w-full h-48 rounded-t object-cover" :src="item.card_image ?? '/logo.png'" loading="lazy" />
     <div v-else-if="cardConfig?.image"
       class="w-full h-48 flex justify-center items-center rounded-t font-bold text-2xl text-center relative border-b dark:border-gray-700 px-4 select-none">
       <div
