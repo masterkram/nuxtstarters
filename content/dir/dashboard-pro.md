@@ -2,7 +2,6 @@
 tags:
   - dashboard
   - paid
-card_image: menu.jpg
 description: Visual template for a dashboard page.
 ---
 

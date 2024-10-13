@@ -12,29 +12,46 @@ export default defineNuxtSchema({
           description: "Title of the application.",
           default: "New Directory",
         }),
-        logo: {
-          mainLogo: field({
-            type: "string",
-            title: "Main Logo",
-            description: "Main logo for the application.",
-          }),
-          darkModeLogo: field({
-            type: "string",
-            title: "Dark Mode Logo",
-            description: "Dark mode logo for the application.",
-          }),
-          lightModeLogo: field({
-            type: "string",
-            title: "Light Mode Logo",
-            description: "Light mode logo for the application.",
-          }),
-        },
+        logo: field({
+          type: "media",
+          title: "Logo",
+          description: "Logo of the application.",
+          default: "/logo.png",
+        }),
       },
     }),
     directory: group({
       title: "Directory",
       description: "Directory configuration.",
       fields: {
+        featured: group({
+          fields: {
+            showOnAllPages: field({
+              type: "boolean",
+              title: "Show Featured On All Pages",
+              description: "Show featured items on all pages.",
+              default: true,
+            }),
+            showOnSide: field({
+              type: "boolean",
+              title: "Featured listing location",
+              description:
+                "Show recommended listing on side of the screen or bottom of the.",
+              default: true,
+            }),
+            labelForCard: field({
+              type: "string",
+              title: "Featured Text",
+              description: "Text to display for featured items.",
+              default: "Featured ✨",
+            }),
+            icon: field({
+              type: "icon",
+              title: "Featured Icon",
+              description: "Icon for the banner of featured listings",
+            }),
+          },
+        }),
         search: group({
           title: "Search",
           description: "Search settings for the directory.",
@@ -45,12 +62,6 @@ export default defineNuxtSchema({
               description:
                 "Placeholder text for the search input. Use {0} to mark where to fill in the number of listings.",
               default: "Search among {0} tools",
-            }),
-            showCount: field({
-              type: "boolean",
-              title: "Show Count",
-              description: "Show the number of search results.",
-              default: true,
             }),
             icon: field({
               type: "icon",
@@ -110,7 +121,7 @@ export default defineNuxtSchema({
                   type: "icon",
                   title: "Icon",
                   description: "Icon for the empty state.",
-                  default: "ph:boat-bold",
+                  default: "tabler:ship",
                 }),
               },
             }),
@@ -124,12 +135,12 @@ export default defineNuxtSchema({
                   description: "Images on cards",
                   default: false,
                 }),
-                border: field({
+                type: field({
                   type: "string",
                   title: "Type",
                   description: "Type of empty state.",
                   default: "dashed",
-                  required: ["dashed", "shadow", "outline"],
+                  required: ["dashed", "shadow", "outline", "bullet"],
                 }),
               },
             }),
@@ -168,21 +179,16 @@ export default defineNuxtSchema({
                   description: "Allow hiding the submit button.",
                   default: true,
                 }),
+                icon: field({
+                  type: "icon",
+                  title: "Icon",
+                  description:
+                    "Icon shown in the submit suggestion in the grid.",
+                  default: "tabler:send",
+                }),
               },
             }),
           },
-        }),
-        showFeaturedOnAllPages: field({
-          type: "boolean",
-          title: "Show Featured On All Pages",
-          description: "Show featured items on all pages.",
-          default: true,
-        }),
-        featuredText: field({
-          type: "string",
-          title: "Featured Text",
-          description: "Text to display for featured items.",
-          default: "Featured ✨",
         }),
         tags: field({
           type: "array",
@@ -194,10 +200,21 @@ export default defineNuxtSchema({
             { name: "landing-page" },
             { name: "toolbox" },
             { name: "agency" },
-            { name: "markdown" },
+            { name: "markdown-based" },
             { name: "basics", color: "indigo" },
-            { name: "free", color: "green" },
           ],
+        }),
+        tagPages: group({
+          fields: {
+            title: field({
+              type: "string",
+              default: "All {0} products",
+            }),
+            description: field({
+              type: "string",
+              default: "All {0} products",
+            }),
+          },
         }),
       },
     }),
@@ -244,6 +261,12 @@ export default defineNuxtSchema({
               title: "Color Mode Selector",
               description: "Show the color mode selector in the navbar.",
               default: true,
+            }),
+            links: field({
+              type: "array",
+              title: "Link Array",
+              description: "Links to show on the navbar.",
+              default: [],
             }),
           },
         }),
@@ -349,13 +372,13 @@ export default defineNuxtSchema({
               type: "icon",
               title: "Dark mode",
               description: "Icon of color mode button for dark mode.",
-              default: "ph:moon-bold",
+              default: "tabler:moon",
             }),
             light: field({
               type: "icon",
               title: "Light mode",
               description: "Icon of color mode button for light mode.",
-              default: "ph:sun-bold",
+              default: "tabler:sun",
             }),
           },
         }),

@@ -2,7 +2,7 @@
 tags:
   - AI
   - free
-card_image: /ai-chat.png
+card_image: /listing/ai_chat.png
 description: AI LLM Playground made with Nuxt
 ---
 

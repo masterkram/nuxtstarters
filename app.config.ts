@@ -1,11 +1,8 @@
 export default defineAppConfig({
   general: {
     title: "Nuxt Starters",
-    logo: {
-      mainLogo: "",
-      darkModeLogo: "/dark-logo.png",
-      lightModeLogo: "/light-logo.png",
-    },
+    logo: "",
+    iconLogo: "tabler:plant-2",
   },
   directory: {
     search: {
@@ -57,6 +54,11 @@ export default defineAppConfig({
       { name: "free", color: "green" },
       { name: "paid" },
     ],
+    tagPages: {
+      title: "Available {0} Nuxt Starter Kits:",
+      description:
+        "View all available tools and templates in the {0} category...",
+    },
   },
   header: {
     banner: {
@@ -67,7 +69,14 @@ export default defineAppConfig({
     },
     navbar: {
       colorModeSelector: true,
-      links: [],
+      links: [
+        { name: "Directory", to: "/" },
+        {
+          name: "Analytics",
+          to: "https://us.posthog.com/shared/7dgSk4cvgNYnJwBu6R47kZXHBUBJWQ",
+          target: "_blank",
+        },
+      ],
     },
     actionButton: {
       text: "Submit a starter",

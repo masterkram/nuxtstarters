@@ -1,5 +1,4 @@
 ---
-card_image: italy.jpg
 tags:
   - free
 description: Starter template with a set of useful pre-installed packages.

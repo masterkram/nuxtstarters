@@ -1,8 +1,4 @@
 <script setup lang="ts">
-const colorMode = useColorMode();
-
-const background = computed(() => colorMode.value === "dark" ? "bg-gray-800" : "bg-white");
-
 const { layout } = useContent();
 </script>
 
@@ -10,7 +6,7 @@ const { layout } = useContent();
 
   <Body :class="background">
     <AppLayout>
-      <NuxtLayout :name="layout as string || 'default'">
+      <NuxtLayout :name="layout as string || 'wide'">
         <NuxtPage class="page-enter-active" />
       </NuxtLayout>
     </AppLayout>
@@ -18,6 +14,10 @@ const { layout } = useContent();
 </template>
 
 <style>
+.dark body {
+  @apply bg-gray-800;
+}
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
