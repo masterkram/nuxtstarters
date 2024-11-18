@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        display: ["Work Sans"],
+        display: ["Gabarito"],
       },
       colors: {
         primary: colors.sky,
