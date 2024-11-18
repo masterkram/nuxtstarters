@@ -18,6 +18,12 @@ export default defineNuxtConfig({
     classSuffix: "",
   },
 
+  routeRules: {
+    "/": { prerender: true },
+    "/blog/**": { prerender: true },
+    "/dir/**": { prerender: true },
+  },
+
   // https://content.nuxt.com/
   content: {
     documentDriven: {
