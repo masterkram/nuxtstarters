@@ -2,7 +2,6 @@
 tags:
   - SAAS
   - free
-card_image: laranuxt.png
 description: A powerful boilerplate that combines Laravel and Nuxt.
 ---
 

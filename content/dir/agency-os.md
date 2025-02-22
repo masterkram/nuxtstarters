@@ -84,15 +84,3 @@ The agency OS client portal has the following features:
 Watch the [youtube playlist](https://www.youtube.com/playlist?list=PLD--x9rY3ZL1tPNZxCTE_-IsFTrFGKHH-) to get a impression and understand how to setup Agency OS.
 
 The [github readme](https://github.com/directus-labs/agency-os?tab=readme-ov-file#installation-and-development) also gives a good step by step plan of how to deploy your own agency os.
-
-**Links:**
-
-::div{.flex.gap-2}
-  :::link-button{:href="github" icon="ph:github-logo-bold"}
-  github
-  :::
-
-  :::link-button{:href="demo" color="indigo" icon="ph:laptop-bold"}
-  demo
-  :::
-::

@@ -16,12 +16,12 @@ featured: 1
 
 Supastarter is a fullstack template for nuxt developers who want to start a **software as a service** startup.
 
-The main features are:
-+ pre-built authentication
-+ pre-built payments library
+The main features of Supastarter are:
++ pre-built authentication :lock:
++ a pre-built payments library :moneybag:
 + internationalization 🇺🇸 :icon{name="tabler:arrow-right"} 🇪🇸
 + mailing ✉️
-+ customizable styling
++ customizable styling 🖌️
 + extensible `tRPC` based API
 + AI adapters
 
@@ -32,7 +32,7 @@ The main features are:
 All features of supastarter explained:
 
 ### Authentication
-The authentication system in Supastarters covers everything needed for both basic and advanced SaaS applications. It includes support for password-based and passwordless authentication.
+The authentication system in Supastarter covers everything needed for both basic and advanced SaaS applications. It includes support for password-based and passwordless authentication.
 
 ::callout
 #title
@@ -71,7 +71,7 @@ OAuth integration is supported for popular providers such as Google, Facebook, a
 - 🌙 Dark mode
 - 📧 Custom Emails
 
-## Stack
+## Tech Stack
 
 | Use             | Name                             |
 | :-------------- | :------------------------------- |

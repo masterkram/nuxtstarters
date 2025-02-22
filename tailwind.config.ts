@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        display: ["Gabarito"],
+        display: ["Gabarito", 'system-ui'],
       },
       colors: {
         primary: colors.sky,

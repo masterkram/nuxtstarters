@@ -19,7 +19,7 @@ const routesRef = computed(() => {
 </script>
 
 <template>
-  <Disclosure as="nav" class="bg-white dark:bg-gray-700 border-b border-gray-200 dark:border-gray-600"
+  <Disclosure as="nav" class="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700"
     v-slot="{ open }">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 justify-between">
