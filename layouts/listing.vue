@@ -5,7 +5,7 @@ const { page } = useContent();
 
 <template>
   <div class="relative">
-    <div class="w-full min-w-0 max-w-prose 2-xl:max-w-6xl px-5 py-10 mx-auto">
+    <div class="w-full min-w-0 max-w-2xl 2xl:max-w-6xl px-5 py-10 mx-auto">
       <DocumentProse>
         <slot />
       </DocumentProse>

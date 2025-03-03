@@ -4,7 +4,7 @@ const { page } = useContent();
 </script>
 
 <template>
-  <div class="max-w-prose w-full 2-xl:max-w-6xl px-5 py-20 mx-auto">
+  <div class="max-w-2xl w-full 2xl:max-w-6xl px-5 py-20 mx-auto">
     <DocumentProse>
       <slot />
     </DocumentProse>
