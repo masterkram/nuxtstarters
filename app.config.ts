@@ -2,7 +2,7 @@ export default defineAppConfig({
   general: {
     title: "Nuxt Starters",
     logo: "",
-    iconLogo: "tabler:plant-2",
+    iconLogo: "emojione:alembic",
   },
   directory: {
     search: {
