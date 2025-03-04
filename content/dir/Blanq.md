@@ -2,6 +2,8 @@
 tags:
   - free
   - saas
+description: The Blanq starter template for nuxt is a free an open source
+  template that can be used to create a SaaS app.
 ---
 
 # Blanq Starter
@@ -16,6 +18,7 @@ The Blanq starter template for nuxt is a free an open source template that can b
 Apart from this it also includes technical features like a queue system that can be used to code your SaaS with a queue system. A queue system changes the way that requests are made to your backend, instead of making a
 
 ## Features
+
 - Authentication
   - 2FA
   - email verification
@@ -26,7 +29,7 @@ Apart from this it also includes technical features like a queue system that can
   - subscriptions
   - one time payments
 - Queues
-- Emails 
+- Emails
 
 ## Tech Stack
 
