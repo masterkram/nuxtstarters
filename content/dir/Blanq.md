@@ -7,8 +7,8 @@ tags:
 # Blanq Starter
 
 ::links
-- [demo]()
-- [github]()
+- [demo](https://blanq.kaizen.com.na/)
+- [github](https://github.com/Eckhardt-D/blanq/tree/main)
 ::
 
 The Blanq starter template for nuxt is a free an open source template that can be used to create a SaaS app. This template includes important features that need to be implemented in every SaaS project: emails, payments and authentication.
