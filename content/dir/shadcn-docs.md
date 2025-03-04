@@ -8,7 +8,8 @@ tags:
 # Shadcn Docs
 
 ::links
-+ [demo](https://shadcn-docs.nuxt.dev/)
-+ [github](https://github.com/ZTL-UwU/shadcn-docs-nuxt)
+- [demo](https://shadcn-docs.nuxt.dev/)
+- [github](https://github.com/ZTL-UwU/shadcn-docs-nuxt)
 ::
 
+Welcome to shadcn docs.
